@@ -1,0 +1,358 @@
+
+/*Nav*/
+nav {
+      background-color: black;
+      color: #fff;
+      padding-right: 100px;
+    }
+
+ ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 50px;
+      display: flex;
+      justify-content: end;
+      padding-right: 100px;
+    }
+
+ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: inline-flex;
+        }
+   
+  ul li a:hover {
+  background-color: #333;
+  border-radius: 10px;
+  transform: scale(1.2); /* Escala desejada */     
+  }
+ 
+.logo{
+    position: absolute;
+    top: 1%;
+    margin-left: 100px;
+    
+     }
+
+
+/*Passeios*/
+.tm{
+    text-align: end;
+}
+
+.pm{
+    text-align: right;
+    margin-left: 1200px;
+}
+
+.container {
+    position: relative;
+}
+
+.imagem-com-texto {
+    position: relative;
+    display: inline-block;
+    margin-right: auto;
+    border-radius: 10px; 
+    
+}
+
+.link {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.conteudo {
+    position: absolute;
+    top: 20px; /* Posição vertical ajustável */
+    right: 20px; /* Posição horizontal ajustável */
+    text-align: right;
+    color: #fff; /* Cor do texto */
+}
+
+.conteudo h1 {
+    font-size: 2.5em; /* Tamanho do título */
+    margin-bottom: 10px;
+    
+}
+
+.conteudo p {
+    font-size: 1.2em; /* Tamanho do texto */
+    margin-bottom: 100px;
+    margin-left: 450px;
+    margin-right: 50px;
+}
+
+.conteudo .botao {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    text-decoration: none; /* Removendo sublinhado do botão */
+    border-radius: 5px;
+    transition: background-color 0.1s ease;
+    align-items: flex-end;
+    margin-right: 40px;
+ 
+}
+
+.conteudo .botao:hover {
+    background-color: black; 
+    color: white;
+}
+
+/*/Livros*/
+
+.item {
+  text-align: center;
+  margin-bottom: 20px;
+  margin: auto;
+}
+   
+.botao-preto {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.botao-preto:hover{
+    background: white;
+    color: black;
+  }
+
+
+/* Estilos para o footer */
+
+footer{
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+align-items: end;
+    }
+
+.botao-instagram {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: background-color 0.1s ease;
+  font-weight: bold;
+}
+
+.botao-instagram:hover {
+  background-color: #333;
+   transform: scale(1.1); /* Escala desejada */
+}
+
+
+.botao-facebook {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: background-color 0.1s ease;
+  font-weight: bold;
+}
+
+.botao-facebook:hover {
+  background-color: #333;
+  transform: scale(1.1); /* Escala desejada */
+}
+
+.botao-pin {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: background-color 0.1s ease;
+  font-weight: bold;
+}
+
+.botao-pin:hover {
+  background-color: #333;
+  transform: scale(1.1); /* Escala desejada */
+}
+
+
+/* Estilos para os itens */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.item h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.item p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin: 50px;
+    transition: color 0.3s ease; /* Efeito de transição para a cor */
+     font-size: 3em;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+/* Estilos para a seção */
+
+.item {
+  width: 30%; /* Largura das colunas */
+  margin-bottom: 2%; /* Espaçamento entre os itens */
+  text-align: center;
+ 
+  
+}
+
+
+/*/HOME*/
+
+.background {
+  background-image: linear-gradient(to right, black 100%, black 50%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+    
+    }
+
+
+p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.a{
+    color: grey;
+    opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }  
+}
+.background h1 {
+  color: #fff; /* Cor do texto */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  font-size: 100px; /* Tamanho da fonte */
+  text-align: center; /* Alinhamento do texto */
+  text-shadow: 4px 4px 0px #a9a9a9, -4px -4px 0px gray; /* Sombra para criar efeito 3D */
+    
+}
+
+
+/*/efeitos*/
+.item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
+
+}
+
+
+@keyframes quicar {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.seta {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent; /* Lado esquerdo transparente */
+  border-right: 20px solid transparent; /* Lado direito transparente */
+  border-top: 20px solid #fff; /* Lado superior com cor branca, forma um triângulo */
+  background-color: transparent; /* Fundo transparente */
+  cursor: pointer; /* Altera o cursor para indicar que é clicável */
+  animation: quicar 1s infinite;
+  margin-top: 20px;
+}
+
+ .carousel {
+      width: 350px; /* Largura do carrossel */
+      overflow: hidden; /* Esconde os slides fora do contêiner */
+      margin-bottom: 20px; /* Espaçamento entre os carrosseis */
+    }
+
+    .slides {
+      display: flex; /* Cria um contêiner flexível para os slides */
+      transition: transform 0.5s ease; /* Adiciona transição suave ao alterar os slides */
+    }
+
+    .slide {
+      flex: 0 0 100%; /* Define a largura de cada slide */
+    }
+
+    img {
+      width: 100%; /* Garante que as imagens preencham o espaço do slide */
+      cursor: pointer; /* Altera o cursor ao passar por cima das imagens */
+    }
+    
+.iframe{
+    padding-bottom: 10px;
+}
+
+/* Adiciona um efeito de transição suave ao tamanho da imagem nos sliders*/
+img {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Define o aumento de tamanho para a classe "enlarge" */
+.enlarge {
+  transform: scale(1.2);
+}
+
